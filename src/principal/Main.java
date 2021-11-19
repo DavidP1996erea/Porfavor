@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import static principal.digitio0y9.DIGITO;
 import static principal.multiplo5.multi;
+import static principal.NumeroPerfecto.NumeroPerfecto;
 
 
 public class Main {
@@ -34,7 +35,7 @@ public class Main {
  */
 
 
-
+    /*
         int digito=0;
         char opc;
         System.out.println("¿Quieres introducir un numero?");
@@ -51,12 +52,29 @@ public class Main {
 
         }
 
-
+    */
         /*
 ---------------------------------------------------------------------------------------------------------------
  */
 
+        int numperf=0;
+        char opc;
 
+        System.out.println("¿Quieres introducir un numero");
+        opc=sc.next().charAt(0);
+
+
+        while(opc=='S' || opc=='s') {
+            System.out.println("Introduzca el numero");
+            numperf = sc.nextInt();
+
+            NumeroPerfecto(numperf);
+
+
+            System.out.println("¿Quieres volver a  introducir un numero?");
+            opc = sc.next().charAt(0);
+
+        }
 
 
 
