@@ -6,7 +6,7 @@ public class numperfecto {
 
         int acum=0;
 
-        for(int i=1; i <= num ;i++){
+        for(int i=1; i <= num ; i++){
 
             if( num%i==0 ){
 
@@ -15,9 +15,8 @@ public class numperfecto {
             }
 
         }
+
         System.out.println(acum);
-
-
 
     }
 }

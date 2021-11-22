@@ -5,6 +5,8 @@ import java.util.Scanner;
 import static principal.digitio0y9.DIGITO;
 import static principal.multiplo5.multi;
 import static principal.españita.caracterespanol;
+
+
 import static principal.numperfecto.numeroperfecto;
 
 
@@ -82,7 +84,7 @@ public class Main {
 ------------------------------------------------------------------------------------------------------------------
  */
 
-        int numero=0;
+        int numero;
         char opc;
         System.out.println("¿Quieres introducir un numero?");
         opc=sc.next().charAt(0);
