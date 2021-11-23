@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import static principal.digitio0y9.DIGITO;
 import static principal.multiplo5.multi;
-import static principal.españita.caracterespanol;
+import static principal.espanita.caracterespanol;
 
 
 import static principal.numperfecto.numeroperfecto;

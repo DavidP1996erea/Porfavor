@@ -1,6 +1,6 @@
 package principal;
 
-public class españita {
+public class espanita {
 
     public static void caracterespanol(char caracter){
 
