@@ -83,6 +83,7 @@ public class Main {
        /*
 ------------------------------------------------------------------------------------------------------------------
  */
+        /*
 
         int numero;
         char opc;
@@ -99,6 +100,45 @@ public class Main {
             opc = sc.next().charAt(0);
 
         }
+
+*/
+           /*
+------------------------------------------------------------------------------------------------------------------
+ */
+
+        /*
+            -Funcion o procedimiento -> Solo que haga una cosa
+                                        Breves y concisas (3-10 lineas)
+                                        Nombre significativo y autodescriptivo
+                                        Debe tener ningún parámetro de entrada o pocos
+
+         */
+   /*
+------------------------------------------------------------------------------------------------------------------
+ */
+
+    int altura=0;
+    char caracter;
+        System.out.println("Introduce la altura del triangulo");
+        altura=sc.nextInt();
+        System.out.println("Introduce un caracter");
+        caracter=sc.next().charAt(0);
+
+        for(int i =0; i < altura; i++ ){
+
+            for( int j=i ; j < altura -1 ; j++) {
+                System.out.print(" ");
+            }
+                for(int k=0 ; k <= i ;k++ ){
+                    System.out.print(" " +caracter);
+
+                }
+                System.out.println();
+
+
+        }
+
+
 
 
     }
