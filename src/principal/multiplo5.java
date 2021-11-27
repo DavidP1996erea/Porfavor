@@ -1,5 +1,6 @@
 package principal;
 
+
 public class multiplo5 {
 
         public static void multi(int num){
