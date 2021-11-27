@@ -2,6 +2,7 @@ package principal;
 
 import java.util.Scanner;
 
+import static principal.ConvertirHectayArea.ConvertidorAMetros;
 import static principal.NumerosAmigos.NumerosAmigo;
 import static principal.contardigitos.ContarDigitosNumero;
 import static principal.digitio0y9.DIGITO;
@@ -199,9 +200,27 @@ public class Main {
                    /*
 ------------------------------------------------------------------------------------------------------------------
  */
+        // hectareas y areas a metros
+
+        /*
+
+    int hectareas=0;
+    int area=0;
+
+        System.out.println("Introduce las hectareas");
+        hectareas=sc.nextInt();
+
+        System.out.println("Introduce el area");
+        area= sc.nextInt();
+
+        ConvertidorAMetros(hectareas, area);
+
+         */
 
 
-
+                   /*
+------------------------------------------------------------------------------------------------------------------
+ */
 
 
 
