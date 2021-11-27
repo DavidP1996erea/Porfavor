@@ -116,7 +116,8 @@ public class Main {
    /*
 ------------------------------------------------------------------------------------------------------------------
  */
-
+ // Triangulo
+        /*
     int altura=0;
     char caracter;
         System.out.println("Introduce la altura del triangulo");
@@ -138,7 +139,33 @@ public class Main {
 
         }
 
+*/
+   /*
+------------------------------------------------------------------------------------------------------------------
+ */
+// mayus a minu
+        /*
+        char caracter;
+        System.out.println("Introduce un caracter");
+        caracter=sc.next().charAt(0);
 
+        char minuscula=Character.toLowerCase(caracter);
+
+        System.out.println(minuscula);
+
+         */
+
+           /*
+------------------------------------------------------------------------------------------------------------------
+ */
+    int a=0;
+    int b=0;
+
+        System.out.println("Introduzca el primer numero");
+        a=sc.nextInt();
+
+        System.out.println("Introduzca el segundo numero");
+        b=sc.nextInt();
 
 
     }
