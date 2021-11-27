@@ -3,6 +3,7 @@ package principal;
 import java.util.Scanner;
 
 import static principal.NumerosAmigos.NumerosAmigo;
+import static principal.contardigitos.ContarDigitosNumero;
 import static principal.digitio0y9.DIGITO;
 import static principal.multiplo5.multi;
 import static principal.espanita.caracterespanol;
@@ -180,6 +181,14 @@ public class Main {
            /*
 ------------------------------------------------------------------------------------------------------------------
  */
+
+        int numero=0;
+
+        System.out.println("Introduce un numero");
+        numero=sc.nextInt();
+
+        ContarDigitosNumero(numero);
+
 
 
 
