@@ -2,6 +2,7 @@ package principal;
 
 import java.util.Scanner;
 
+import static principal.NumerosAmigos.NumerosAmigo;
 import static principal.digitio0y9.DIGITO;
 import static principal.multiplo5.multi;
 import static principal.espanita.caracterespanol;
@@ -158,6 +159,10 @@ public class Main {
            /*
 ------------------------------------------------------------------------------------------------------------------
  */
+
+        /*
+
+        // NUMEROS AMIGOS
     int a=0;
     int b=0;
 
@@ -166,6 +171,17 @@ public class Main {
 
         System.out.println("Introduzca el segundo numero");
         b=sc.nextInt();
+
+        NumerosAmigo(a,b);
+
+
+         */
+
+           /*
+------------------------------------------------------------------------------------------------------------------
+ */
+
+
 
 
     }
